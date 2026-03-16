@@ -237,7 +237,7 @@
   <div class="hero reveal">
     <span class="hero-kicker">What Shortlist Does</span>
     <h1>Built around the real you,<br/><span>not your keywords.</span></h1>
-    <p class="hero-sub">Shortlist is a locally-run Mac application that matches jobs to who you actually are — your values, your work style, your deal-breakers — not just your job title. Here's how it works.</p>
+    <p class="hero-sub">Shortlist is a locally-run Mac application that matches jobs to who you actually are; YOUR values, YOUR work style, YOUR deal-breakers — not just your job title. Here's how it works.</p>
   </div>
 </div>
 </section>
@@ -248,7 +248,7 @@
   <div class="feat-section reveal">
     <span class="feat-label label-cyan">How it works</span>
     <h2>Four steps from stranger to shortlist.</h2>
-    <p class="desc">Shortlist is designed around a simple idea: you describe yourself, the tool does the work. No Boolean strings. No dropdown hell.</p>
+    <p class="desc">Shortlist is designed around a simple idea: you describe yourself, the tool gets to work. No Boolean strings. No dropdown hell.</p>
 
     <div class="flow-list">
       <div class="flow-item">
@@ -262,21 +262,21 @@
         <div class="flow-num">02</div>
         <div class="flow-body">
           <h3>Talk to Coach</h3>
-          <p>Have a real conversation with an AI that asks what you've loved, what you'd walk away from, what kind of environment brings out your best work, and what you won't settle for. Coach listens and follows up.</p>
+          <p>Have a real conversation with your AI Coach that asks what you've loved, what you'd walk away from, what kind of environment brings out your best work, and what you won't settle for. Coach listens and follows up.</p>
         </div>
       </div>
       <div class="flow-item">
         <div class="flow-num">03</div>
         <div class="flow-body">
           <h3>Review and own your profile</h3>
-          <p>Coach synthesizes everything into a structured profile written in your voice. Every section is fully editable — because AI occasionally overstates or fills gaps with plausible-sounding details that aren't accurate. You stay in control of how you're represented.</p>
+          <p>Coach synthesizes everything into a structured profile written in your voice. Every section is fully editable because, as we know, AI <em>occasionally</em> overstates or fills gaps with plausible-sounding details that aren't accurate. You stay in control of how you're represented.</p>
         </div>
       </div>
       <div class="flow-item">
         <div class="flow-num">04</div>
         <div class="flow-body">
           <h3>Get your shortlist</h3>
-          <p>Jobs are scored against your full profile — values, work style, deal-breakers, salary expectations, and the kinds of companies you've been excited about — and surfaced with plain-language explanations for every result.</p>
+          <p>Jobs are scored against your full profile — values, work style, deal-breakers, salary expectations, and the kinds of companies you've been excited about — and surfaced with thorough plain-language explanations for every result.</p>
         </div>
       </div>
     </div>
@@ -295,8 +295,8 @@
     <div class="two-col">
       <div class="two-col-text">
         <h3>How scoring works</h3>
-        <p>Jobs are scored 1-10 against your profile using Claude. The score reflects the whole picture — not just title matching — including remote confirmation, salary alignment, company type, values fit, and deal-breaker detection.</p>
-        <p>Results are also weighted by ATS platform quality. Roles from Greenhouse, Lever, and Ashby get a ranking boost because those platforms tend to attract more established, intentional employers. Workday is deprioritized by default — you can adjust this in Preferences.</p>
+        <p>Jobs are scored 1-10 against your profile using Claude. The score reflects the whole picture, not just title matching, including location preference confirmation, salary alignment, company type, values fit, and deal-breaker detection.</p>
+        <p>Results are also weighted by ATS platform quality. Roles from Greenhouse, Lever, and Ashby get a ranking boost because those platforms tend to attract more established, intentional employers. Workday is deprioritized by default, but you can adjust this in Preferences.</p>
         <h3 style="margin-top:28px">Score tiers</h3>
         <p>9-10: Exceptional. 7-8: Strong Match. 5-6: Close Match. Weak matches are filtered out by default. The threshold is adjustable.</p>
       </div>
@@ -381,7 +381,7 @@
         <h3>Full careers page</h3>
         <p>Paste a company careers page URL and Shortlist scans every open role, pre-filters by relevance to your profile, and scores the best matches. Pulls structured job data directly from Ashby, Lever, and Greenhouse APIs rather than scraping.</p>
         <h3>My Shortlist tab</h3>
-        <p>Manually evaluated jobs live in the My Shortlist tab and persist until you delete them — they never get swept away by a new automated search. Star any result from the Longlist to save it here too.</p>
+        <p>Manually evaluated jobs live in the My Shortlist tab and persist until you delete them. They never get swept away by a new automated search. Star any result from the Longlist to save it here too.</p>
       </div>
     </div>
   </div>
@@ -513,7 +513,7 @@
       <h3>What stays on your machine</h3>
       <p>Your profiles, your Coach conversation history, the documents you upload, your API keys, your Tracker data, your saved evaluations, your preferences. All of it. None of it leaves your computer through Shortlist.</p>
       <h3 style="margin-top:20px">What goes out, and where</h3>
-      <p>Two outbound API calls during normal use: job search query strings to JSearch/RapidAPI (no personal data, just search terms), and your profile content plus job listing text to Anthropic for AI scoring. Both use your own API keys, not ours — because there is no ours.</p>
+      <p>Two outbound API calls during normal use: job search query strings to JSearch/RapidAPI (no personal data, just search terms), and your profile content plus job listing text to Anthropic for AI scoring. Both use your own API keys, not ours — because there is no <em>ours</em>.</p>
       <h3 style="margin-top:20px">Why this matters</h3>
       <p>You are describing yourself, your values, and what you won't settle for. That is personal. It belongs on your machine. You bring your own Anthropic and RapidAPI keys, you control the costs, and nothing routes through Shortlist infrastructure because there isn't any.</p>
     </div>
