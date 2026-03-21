@@ -66,11 +66,13 @@
     }
     .nav-logo {
       font-family: 'Space Mono', monospace;
-      font-size: 20px; font-weight: 700;
+      font-size: 13px; font-weight: 700;
       color: var(--yellow); text-decoration: none;
       letter-spacing: 0.08em;
-      text-shadow: 0 0 18px rgba(245,230,66,0.4);
+      text-shadow: 0 0 16px rgba(245,230,66,0.4);
+      display: flex; align-items: center; gap: 10px;
     }
+    .nav-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 6px var(--cyan); flex-shrink: 0; }
     .nav-links {
       display: flex; gap: 32px; list-style: none; align-items: center;
     }
@@ -273,7 +275,7 @@
 <div class="progress-bar" id="progress"></div>
 
 <nav>
-  <a href="index.html" class="nav-logo">SHORTLIST</a>
+  <a href="index.html" class="nav-logo"><div class="nav-dot"></div>SHORTLIST</a>
   <ul class="nav-links">
     <li><a href="index.html">Build Log</a></li>
     <li><a href="features.html">Features</a></li>
@@ -354,8 +356,9 @@
 
 </div>
 
+<p class="footer-copyright" id="copyright"></p>
+
 <script>
-  // Progress bar
   window.addEventListener('scroll', () => {
     const scrollTop = window.scrollY;
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -403,8 +406,6 @@
   // Copyright
   document.getElementById('copyright').textContent = '© ' + new Date().getFullYear() + ' Nan Doud';
 </script>
-
-<p class="footer-copyright" id="copyright"></p>
 
 </body>
 </html>
